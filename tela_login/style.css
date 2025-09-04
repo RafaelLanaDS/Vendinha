@@ -1,0 +1,78 @@
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e9ffd8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .login-container {
+            background-color: #f79c73; 
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+            width: 320px;
+            text-align: center;
+        }
+
+        .login-container img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+
+        .login-container h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-family: "Trebuchet MS", sans-serif;
+            color: #333;
+        }
+
+        .login-container label {
+            display: block;
+            text-align: left;
+            margin-bottom: 5px;
+            font-size: 13px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            background-color: #e6ffd8;
+            font-size: 14px;
+            box-shadow: inset 1px 1px 3px rgba(0,0,0,0.2);
+        }
+
+        .login-container button {
+            width: 50%;
+            padding: 12px;
+            background-color: #a4ff7c;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #333;
+            box-shadow: 2px 4px 6px rgba(0,0,0,0.2);
+            transition: background 0.3s;
+        }
+
+        .login-container button:hover {
+            background-color: #8ee96a;
+        }
+
+        .footer-text {
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #8a9f39;
+            letter-spacing: 3px;
+        }

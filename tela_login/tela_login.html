@@ -7,18 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <img src="/imagens/logo.png.png" width="250" height="250" alt="Logo" >
-        <h1>Casa de Varejo</h1>
-        <label for="emal">E-MAIL/USUARIO: </label>
-        <input type="email" name="email" id="idemail">
-        <br>
-        <label for="senha">Senha: </label>
-        <input type="password" name="senha" id="idsenha">
-        <br>
-        <input type="submit" value="entrar">
+    <div class="login-container">
+        <img src="logo.png" alt="logo">
+        <h1>Casa Varejo</h1>
+        <form id="loginForm">
+            <label for="email">E-MAIL/USUARIO:</label>
+            <input type="text" id="email" name="email" required>
+            
+            <label for="senha">SENHA:</label>
+            <input type="password" id="senha" name="senha" required>
+            
+            <button type="submit">ENTRAR</button>
+        </form>
+    </div>
 
-        <p>qualidade e preço justo, em um só lugar</p>
-    </main>
+    <div class="footer-text">
+        qualidade e preço justo, em um só lugar!
+    </div>
 </body>
 </html>
